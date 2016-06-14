@@ -1,3 +1,5 @@
 scriptsToWrite.txt
 test1.sh
 .gitignore
+advanced-bash-scripting/
+*.swp

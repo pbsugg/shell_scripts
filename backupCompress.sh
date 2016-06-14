@@ -16,6 +16,9 @@ mkdir $BACKUP_DIR
 #change to the new directory
 cd $BACKUP_DIR 
 
+#copy all bash profile settings, history to $BACKUP_DIR
+cp ~/.bashrc ~/.aliases ~/.bash_profile ~/.bash_history $BACKUP_DIR
+
 #make all files into tarball, compress with gzip
 #instead of "*" for all files use "." to include hidden files
 #This will remove all absolute pathnames to original directories.
